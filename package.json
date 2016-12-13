@@ -9,5 +9,6 @@
         "install": "echo install should never be run && exit 1",
         "postinstall": "echo postinstall should never be run && exit 1"
     },
+    "types": "index.d.ts",
     "license": "MIT"
 }
