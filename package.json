@@ -2,7 +2,10 @@
     "name": "javascript-dep-npm",
     "version": "1.0.0",
     "main": "index.js",
-    "repository": "git@github.com:sgtest/javascript-dep-npm.git",
+    "repository": {
+        "url": "https://github.com/sgtest/javascript-dep-npm.git",
+        "type": "git"
+    },
     "author": "Beyang Liu <beyang@sourcegraph.com>",
     "scripts": {
         "preinstall": "echo preinstall should never be run && exit 1",
